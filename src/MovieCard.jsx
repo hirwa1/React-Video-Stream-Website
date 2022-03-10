@@ -1,20 +1,20 @@
 import React from 'react';
 
-const MovieCard = ({movie1}) => {
+const MovieCard = ({movie}) => {
     return (
               <div className='movie'>
 
                    <div>
-                   <p>{movie1.year} </p>
+                   <p>{movie.year} </p>
                    </div>
 
                   <div>
-                  <img  src={movie1.Poster !== 'N/A' ? movie1.Poster : 'https://kigalidevelopers.com/wp-content/uploads/2022/03/TRUSTED-KIGALI-DEVELOPERS.png'}  alt={movie1.Title}/>
+                  <img  src={movie.Poster !== 'N/A' ? movie.Poster : 'https://kigalidevelopers.com/wp-content/uploads/2022/03/TRUSTED-KIGALI-DEVELOPERS.png'}  alt={movie1.Title}/>
                   </div>
 
                   <div>
-                      <span>{movie1.Type}</span>
-                      <h3>{movie1.Title}</h3>
+                      <span>{movie.Type}</span>
+                      <h3>{movie.Title}</h3>
                   </div>
                </div>
     );
