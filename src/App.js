@@ -28,6 +28,8 @@ const App = () =>{
              onChange={() => {}}
             />
             <img 
+            src={SearchIcon}
+            alt="search"
             />
           </div>
         </div>
