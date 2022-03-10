@@ -1,8 +1,11 @@
-import  { useState} from 'react';
+import  { useState, useEffect} from 'react';
 import './App.css';
 
 function App() {
  const [counter, setCounter] = useState(0);
+ useEffect(() =>{
+
+ });
   return (
     <div className="App">
        <button onClick={() => setCounter((prveCount) => prveCount - 1)}> -</button>
