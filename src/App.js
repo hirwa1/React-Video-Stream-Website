@@ -13,6 +13,8 @@ function App() {
   return (
     <div className="App">
       <Person name={'Hirwa'} last={'NIYIBZI'} age={'21'}/>
+      <Person name={'John'} last={'Money'} age={'34'}/>
+      <Person name={'Hirwa'} last={'NIYIBZI'} age={'21'}/>
     </div>
   );
 }
