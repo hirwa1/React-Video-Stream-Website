@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Person name={'Hirwa'} lastName={'NIYIBZI'} age={'21'}/>
+      <Person name={'Hirwa'} last={'NIYIBZI'} age={'21'}/>
     </div>
   );
 }
