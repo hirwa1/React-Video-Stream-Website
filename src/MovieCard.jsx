@@ -9,7 +9,7 @@ const MovieCard = ({movie}) => {
                    </div>
 
                   <div>
-                  <img  src={movie.Poster !== 'N/A' ? movie.Poster : 'https://kigalidevelopers.com/wp-content/uploads/2022/03/TRUSTED-KIGALI-DEVELOPERS.png'}  alt={movie1.Title}/>
+                  <img  src={movie.Poster !== 'N/A' ? movie.Poster : 'https://kigalidevelopers.com/wp-content/uploads/2022/03/TRUSTED-KIGALI-DEVELOPERS.png'}  alt={movie.Title}/>
                   </div>
 
                   <div>
