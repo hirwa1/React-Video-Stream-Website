@@ -24,7 +24,8 @@ const App = () =>{
           <div className="search">
             <input 
              placeholder='Search For Movies'
-             
+             value="Superman"
+             onChange={() => {}}
             />
           </div>
         </div>
