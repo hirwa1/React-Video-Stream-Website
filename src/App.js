@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Person name={'Hirwa'} last={'NIYIBZI'} age={'21'}/>
       <Person name={'John'} last={'Money'} age={'34'}/>
-      <Person name={'Lord'} last={'Hirwao'} age={'21'}/>
+      <Person name={'Lord'} last={'Hirwao'} age={'35'}/>
     </div>
   );
 }
