@@ -17,7 +17,10 @@ const App = () =>{
        searchMovies('Spiderman');
     }, []);
     return (
-         <h1>App</h1>
+        <div className='app'>
+       <h1> Movie Land</h1>
+       
+        </div>
     );
 }
 
