@@ -52,6 +52,7 @@ const App = () =>{
                   </div>
                   <div>
                       <span>{movie1.Type}</span>
+                      <h3>{movie1.Title}</h3>
                   </div>
                </div>
           </div>
