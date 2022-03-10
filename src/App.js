@@ -16,7 +16,7 @@ const movie1 = {
 "imdbID": "tt4275958"
 }
 const App = () =>{
-    const [movies, setMovies] = useState();
+    const [movies, setMovies] = useState([]);
     const searchMovies = async (title) =>{
         const response = await fetch(`${API_URL}&s={title}`);
         const data = await response.json();
