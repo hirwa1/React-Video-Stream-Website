@@ -19,7 +19,14 @@ const App = () =>{
     return (
         <div className='app'>
        <h1> Movie Land</h1>
-       
+          
+
+          <div className="search">
+            <input 
+             placeholder='Search For Movies'
+             
+            />
+          </div>
         </div>
     );
 }
