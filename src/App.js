@@ -4,7 +4,7 @@ const  Person = (props) => {
     <>
      <h1> Name : {props.name}</h1>
      <h2> Last Name: {props.last}</h2>
-     <h2> Age : 30</h2>
+     <h2> Age : {props.age}</h2>
     </>
   )
 }
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Person />
+      <Person name={'Hirwa'} lastName={'NIYIBZI'} age={'21'}/>
     </div>
   );
 }
