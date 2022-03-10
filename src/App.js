@@ -27,6 +27,8 @@ const App = () =>{
              value="Superman"
              onChange={() => {}}
             />
+            <img 
+            />
           </div>
         </div>
     );
