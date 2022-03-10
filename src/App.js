@@ -4,8 +4,8 @@ import './App.css';
 function App() {
  const [counter, setCounter] = useState(0);
  useEffect(() =>{
-
- });
+ setCounter(100);
+ }, []);
   return (
     <div className="App">
        <button onClick={() => setCounter((prveCount) => prveCount - 1)}> -</button>
