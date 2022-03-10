@@ -33,6 +33,10 @@ const App = () =>{
             onClick={() => {}}
             />
           </div>
+
+          <div className='container'>
+
+          </div>
         </div>
     );
 }
